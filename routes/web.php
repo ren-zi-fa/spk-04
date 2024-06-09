@@ -32,19 +32,19 @@ Route::get('/', function () {
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
-// })->middleware(['auth', 'verified'])->name('dashboard');
+// })->middleware(['auth'])->name('dashboard');
 
 Route::get('auth/{provider}', [SocialiteController::class, 'redirect'])->name('socialite.redirect');
 Route::get('auth/{provider}/callback', [SocialiteController::class, 'callback'])->name('socialite.callback');
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->middleware(['auth','verified'])->name('home');
 
 Route::middleware('auth')->group(function () {
     Route::get('account/profile', [ProfileController::class, 'edit'])->name('account.profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
-Route::prefix('admin')->middleware(['auth', 'role_ori:Admin'])->group(function () {
+Route::prefix('admin')->middleware(['auth','role_ori:Admin'])->group(function () {
     Route::resource('/users', UserController::class);
     Route::resource('/products', ProductController::class);
     Route::resource('/presetpreferences', PresetPreferenceController::class);
