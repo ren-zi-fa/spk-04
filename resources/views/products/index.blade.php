@@ -49,7 +49,7 @@
                         {{ $product->name }}
                     </td>
                     <td class="px-6 py-4">
-                        Rp{{ number_format($product->harga,0,",",".") }}
+                        Rp{{ number_format($product->harga,0,",",".") }}per tahun
                     </td>
                     <td class="px-6 py-4">
                         {{ $product->detail }}

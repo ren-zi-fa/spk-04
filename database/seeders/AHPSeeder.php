@@ -20,7 +20,7 @@ class AHPSeeder extends Seeder
             'is_konsisten'     => 1,
             'is_created_by_admin'=> 1,
             'creator_id'       => 1,
-            'detail'           => 'Pembobotan AHP-1 by admin'
+            'detail'           => 'Pembobotan AHP-1 by renzi'
         ]);
 
         $kriterias = 

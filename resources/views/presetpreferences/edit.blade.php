@@ -39,14 +39,14 @@
                         <div class="px-4 py-3">
                             <strong>Perizinan Regulasi: </strong>
                             <select class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="perizinan_regulasi">
-                                <option value="50" {{ $presetpreference->perizinan_regulasi == 50? 'selected' : ''
+                                <option value="50" {{ $presetpreference->perizinan_regulasi == 5? 'selected' : ''
                                     }}>Mudah
                                 </option>
-                                <option value="100" {{ $presetpreference->perizinan_regulasi == 100 ? 'selected' : ''
+                                <option value="100" {{ $presetpreference->perizinan_regulasi == 10 ? 'selected' : ''
                                     }}>Sedang</option>
-                                <option value="150" {{ $presetpreference->perizinan_regulasi == 150 ? 'selected' : ''
+                                <option value="150" {{ $presetpreference->perizinan_regulasi == 15 ? 'selected' : ''
                                     }}>Sulit</option>
-                                <option value="200" {{ $presetpreference->perizinan_regulasi == 200 ? 'selected' : ''
+                                <option value="200" {{ $presetpreference->perizinan_regulasi == 20 ? 'selected' : ''
                                     }}>Sangat Sulit</option>
                             </select>
 
@@ -55,14 +55,14 @@
 
                             <strong>Ketersediaan Air:</strong>
                             <select class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="ketersediaan_air">
-                                <option value="50" {{ $presetpreference->ketersediaan_air == 50? 'selected' : ''
+                                <option value="50" {{ $presetpreference->ketersediaan_air == 5? 'selected' : ''
                                     }}>Tersedia
                                     Sepenuhnya</option>
-                                <option value="100" {{ $presetpreference->ketersediaan_air == 100 ? 'selected' : ''
+                                <option value="100" {{ $presetpreference->ketersediaan_air == 10 ? 'selected' : ''
                                     }}>Tersedia Dengan Baik</option>
-                                <option value="150" {{ $presetpreference->ketersediaan_air == 150 ? 'selected' : ''
+                                <option value="150" {{ $presetpreference->ketersediaan_air == 15 ? 'selected' : ''
                                     }}>Ketersediaan Terbatas</option>
-                                <option value="200" {{ $presetpreference->ketersediaan_air == 200 ? 'selected' : ''
+                                <option value="200" {{ $presetpreference->ketersediaan_air == 20 ? 'selected' : ''
                                     }}>Ketersediaan Terbatas Sekali</option>
                             </select>
 
@@ -75,11 +75,11 @@
 
                         <strong>Lokasi:</strong>
                         <select class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="lokasi">
-                            <option value="50" {{ $presetpreference->lokasi == 50? 'selected' : '' }}>Dekat</option>
-                            <option value="100" {{ $presetpreference->lokasi == 100 ? 'selected' : '' }}>Agak Jauh
+                            <option value="50" {{ $presetpreference->lokasi == 5? 'selected' : '' }}>Dekat</option>
+                            <option value="100" {{ $presetpreference->lokasi == 10? 'selected' : '' }}>Agak Jauh
                             </option>
-                            <option value="150" {{ $presetpreference->lokasi == 150 ? 'selected' : '' }}>Jauh</option>
-                            <option value="200" {{ $presetpreference->lokasi == 200 ? 'selected' : '' }}>Sangat Jauh
+                            <option value="150" {{ $presetpreference->lokasi == 15 ? 'selected' : '' }}>Jauh</option>
+                            <option value="200" {{ $presetpreference->lokasi == 20 ? 'selected' : '' }}>Sangat Jauh
                             </option>
                         </select>
 
@@ -88,13 +88,13 @@
 
                         <strong>Potensi Produksi:</strong>
                         <select class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="potensi_produksi">
-                            <option value="50" {{ $presetpreference->potensi_produksi == 50 ? 'selected' : ''
+                            <option value="50" {{ $presetpreference->potensi_produksi == 5 ? 'selected' : ''
                                 }}>Produktif</option>
-                            <option value="100" {{ $presetpreference->potensi_produksi == 100 ? 'selected' : ''
+                            <option value="100" {{ $presetpreference->potensi_produksi == 10 ? 'selected' : ''
                                 }}>Stabil</option>
-                            <option value="150" {{ $presetpreference->potensi_produksi == 150 ? 'selected' : ''
+                            <option value="150" {{ $presetpreference->potensi_produksi == 15 ? 'selected' : ''
                                 }}>Menengah</option>
-                            <option value="200" {{ $presetpreference->potensi_produksi == 200 ? 'selected' : ''
+                            <option value="200" {{ $presetpreference->potensi_produksi == 20 ? 'selected' : ''
                                 }}>Rendah</option>
                         </select>
 
@@ -103,13 +103,13 @@
 
                         <strong>Aksesibilitas:</strong>
                         <select class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="aksesibilitas">
-                            <option value="50" {{ $presetpreference->aksesibilitas == 50? 'selected' : '' }}>Sangat
+                            <option value="50" {{ $presetpreference->aksesibilitas == 5? 'selected' : '' }}>Sangat
                                 Mudah Diakses</option>
-                            <option value="100" {{ $presetpreference->aksesibilitas == 100 ? 'selected' : '' }}>Mudah
+                            <option value="100" {{ $presetpreference->aksesibilitas == 10 ? 'selected' : '' }}>Mudah
                                 Diakses</option>
-                            <option value="150" {{ $presetpreference->aksesibilitas == 150 ? 'selected' : '' }}>Agak
+                            <option value="150" {{ $presetpreference->aksesibilitas == 15 ? 'selected' : '' }}>Agak
                                 Sulit Diakses</option>
-                            <option value="200" {{ $presetpreference->aksesibilitas == 200 ? 'selected' : '' }}>Sangat
+                            <option value="200" {{ $presetpreference->aksesibilitas == 20 ? 'selected' : '' }}>Sangat
                                 Sulit Diakses</option>
                         </select>
 
@@ -118,13 +118,13 @@
 
                         <strong>Kondisi Lingkungan:</strong>
                         <select class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="kondisi_lingkungan">
-                            <option value="50" {{ $presetpreference->kondisi_lingkungan == 50? 'selected' : '' }}>Baik
+                            <option value="50" {{ $presetpreference->kondisi_lingkungan == 5? 'selected' : '' }}>Baik
                             </option>
-                            <option value="100" {{ $presetpreference->kondisi_lingkungan == 100 ? 'selected' : ''
+                            <option value="100" {{ $presetpreference->kondisi_lingkungan == 10 ? 'selected' : ''
                                 }}>Cukup</option>
-                            <option value="150" {{ $presetpreference->kondisi_lingkungan == 150 ? 'selected' : ''
+                            <option value="150" {{ $presetpreference->kondisi_lingkungan == 15? 'selected' : ''
                                 }}>Buruk</option>
-                            <option value="200" {{ $presetpreference->kondisi_lingkungan == 200 ? 'selected' : ''
+                            <option value="200" {{ $presetpreference->kondisi_lingkungan == 20 ? 'selected' : ''
                                 }}>Sangat Buruk</option>
                         </select>
                     </div>

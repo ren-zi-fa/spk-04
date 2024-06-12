@@ -32,7 +32,7 @@
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <td scope="col" class="px-6 py-3">{{ ++$i }}</td>
                     <td class="px-6 py-4"><x-eos-products class="flex-shrink-0 w-6 h-6 inline-block text-green-600" /> {{ $product->name }}</td>
-                    <td class="px-6 py-4"> Rp{{ number_format($product->harga,0,",",".") }}</td>
+                    <td class="px-6 py-4"> Rp{{ number_format($product->harga,0,",",".") }} per tahun</td>
                     <td class="px-6 py-4">{{ $product->detail }}</td>
                     <td class="px-6 py-4">
                         <form action="{{ route('myfavorites.destroy',$product->id) }}" method="POST">

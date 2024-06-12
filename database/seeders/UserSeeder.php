@@ -46,6 +46,7 @@ class UserSeeder extends Seeder
                 [
                     'name' => $user['name'],
                     'email' => $user['email'],
+                    'email_verified_at'=>$user['email_verified_at'],
                     'password' => $user['password'],
                 ]
             );

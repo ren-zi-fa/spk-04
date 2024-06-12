@@ -17,9 +17,10 @@ class PemilikTanahSeeder extends Seeder
             [
 
                 [
-                    'nama' => 'Tanah Pak Heru',
-                    'detail' => 'luas 2 hektar',
-                    'harga' => '2000000',
+                    'nama' => 'Kebun Sawit 1',
+                    'detail' => 'Luas : 50 Ha
+                    Lokasi: 7J54+5QW Jorong pematang Sontang, Sungai Aua, Kec. Sungaiaur, Kabupaten Pasaman Barat, Sumatera Barat',
+                    'harga' => '750000000',
                     'perizinan_regulasi' => '10',
                     'ketersediaan_air' => '15',
                     'lokasi' => '20',
@@ -28,9 +29,10 @@ class PemilikTanahSeeder extends Seeder
                     'kondisi_lingkungan' => '5',
                 ],
                 [
-                    'nama' => 'Tanah Pak Andi',
-                    'detail' => 'luas 8 hektar',
-                    'harga' => '600000000',
+                    'nama' => 'Kebun Sawit 2',
+                    'detail' => 'luas: 58 Ha
+                    VQXW+G9, Kinali, Kec. Kinali, Kabupaten Pasaman Barat, Sumatera Barat 26567',
+                    'harga' => '8700000000',
                     'perizinan_regulasi' => '10',
                     'ketersediaan_air' => '20',
                     'lokasi' => '5',
@@ -39,9 +41,34 @@ class PemilikTanahSeeder extends Seeder
                     'kondisi_lingkungan' => '15',
                 ],
                 [
-                    'nama' => 'Tanah Pak Budi',
-                    'detail' => 'luas 4 hektar',
-                    'harga' => '4300000',
+                    'nama' => 'Kebun Sawit 3',
+                    'detail' => 'luas: 30 Ha
+                    3VWC+CFM, Aua Kuniang, Kec. Pasaman, Kabupaten Pasaman Barat, Sumatera Barat 26566',
+                    'harga' => '4500000000',
+                    'perizinan_regulasi' => '5',
+                    'ketersediaan_air' => '10',
+                    'lokasi' => '20',
+                    'potensi_produksi' => '5',
+                    'aksesibilitas' => '15',
+                    'kondisi_lingkungan' => '20',
+                ],
+                [
+                    'nama' => 'Kebun Sawit 4',
+                    'detail' => 'luas: 35 Ha
+                    5Q4H+JJC, Aia Gadang, Kec. Pasaman, Kabupaten Pasaman Barat, Sumatera Barat',
+                    'harga' => '5250000000',
+                    'perizinan_regulasi' => '5',
+                    'ketersediaan_air' => '10',
+                    'lokasi' => '20',
+                    'potensi_produksi' => '5',
+                    'aksesibilitas' => '15',
+                    'kondisi_lingkungan' => '20',
+                ],
+                [
+                    'nama' => 'Kebun Sawit 5',
+                    'detail' => 'luas: 44 Ha
+                    5Q4H+JJC, Aia Gadang, Kec. Pasaman, Kabupaten Pasaman Barat, Sumatera Barat',
+                    'harga' => '6600000000',
                     'perizinan_regulasi' => '5',
                     'ketersediaan_air' => '10',
                     'lokasi' => '20',

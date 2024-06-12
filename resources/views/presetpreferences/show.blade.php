@@ -27,18 +27,18 @@
                 </tr>
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <td  scope="col" class="px-6 py-3"><strong>Harga</strong></td>
-                    <td  scope="col" class="px-6 py-3"> Rp{{ $presetpreference->harga }}</td>
+                    <td  scope="col" class="px-6 py-3"> Rp.{{ $presetpreference->harga }} per tahun</td>
                 </tr>
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <td  scope="col" class="px-6 py-3"><strong>Perizinan Regulasi</strong> </td>
                     <td  scope="col" class="px-6 py-3">
-                        @if($presetpreference->perizinan_regulasi == 50)
+                        @if($presetpreference->perizinan_regulasi == 5)
                             Mudah
-                        @elseif($presetpreference->perizinan_regulasi == 100)
+                        @elseif($presetpreference->perizinan_regulasi == 10)
                             Sedang
-                        @elseif($presetpreference->perizinan_regulasi == 150)
+                        @elseif($presetpreference->perizinan_regulasi == 15)
                              Sulit
-                        @elseif($presetpreference->perizinan_regulasi == 200)
+                        @elseif($presetpreference->perizinan_regulasi == 20)
                             Sangat Sulit
                         @endif
                     </td>
@@ -46,13 +46,13 @@
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <td  scope="col" class="px-6 py-3"><strong>Ketersediaan Air</strong></td>
                     <td  scope="col" class="px-6 py-3">
-                        @if($presetpreference->ketersediaan_air == 50)
+                        @if($presetpreference->ketersediaan_air == 5)
                             Tersedia Sepenuhnya
-                        @elseif($presetpreference->ketersediaan_air == 100)
+                        @elseif($presetpreference->ketersediaan_air == 10)
                             Tersedia Dengan Baik
-                        @elseif($presetpreference->ketersediaan_air == 150)
+                        @elseif($presetpreference->ketersediaan_air == 15)
                              Ketersediaan Terbatas
-                        @elseif($presetpreference->ketersediaan_air == 200)
+                        @elseif($presetpreference->ketersediaan_air == 20)
                             Ketersediaan Terbatas Sekali
                         @endif
                     </td>
@@ -60,13 +60,13 @@
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <td  scope="col" class="px-6 py-3"><strong>Lokasi</strong></td>
                     <td  scope="col" class="px-6 py-3">
-                        @if($presetpreference->lokasi == 50)
+                        @if($presetpreference->lokasi == 5)
                             Dekat
-                        @elseif($presetpreference->lokasi == 100)
+                        @elseif($presetpreference->lokasi == 10)
                             Agak Jauh
-                        @elseif($presetpreference->lokasi == 150)
+                        @elseif($presetpreference->lokasi == 15)
                              Jauh
-                        @elseif($presetpreference->lokasi == 200)
+                        @elseif($presetpreference->lokasi == 20)
                            Sangat  Jauh 
                         @endif
                     </td>
@@ -74,13 +74,13 @@
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <td  scope="col" class="px-6 py-3"><strong>Potensi Produksi</strong></td>
                     <td  scope="col" class="px-6 py-3">
-                        @if($presetpreference->potensi_produksi == 50)
+                        @if($presetpreference->potensi_produksi == 5)
                             Produktif
-                        @elseif($presetpreference->potensi_produksi == 100)
+                        @elseif($presetpreference->potensi_produksi == 10)
                             Stabil
-                        @elseif($presetpreference->potensi_produksi == 150)
+                        @elseif($presetpreference->potensi_produksi == 15)
                              Menengah 
-                        @elseif($presetpreference->potensi_produksi == 200)
+                        @elseif($presetpreference->potensi_produksi == 20)
                            Rendah 
                         @endif
                     </td>
@@ -88,13 +88,13 @@
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <td  scope="col" class="px-6 py-3"><strong>Aksesibilitas</strong></td>
                     <td  scope="col" class="px-6 py-3">
-                        @if($presetpreference->potensi_produksi == 50)
+                        @if($presetpreference->potensi_produksi == 5)
                             Sangat Mudah Diakses
-                        @elseif($presetpreference->potensi_produksi == 100)
+                        @elseif($presetpreference->potensi_produksi == 10)
                             Mudah Diakses
-                        @elseif($presetpreference->potensi_produksi == 150)
+                        @elseif($presetpreference->potensi_produksi == 15)
                             Agak Sulit Diakses
-                        @elseif($presetpreference->potensi_produksi == 200)
+                        @elseif($presetpreference->potensi_produksi == 20)
                             Sangat Sulit Diaksess
                         @endif
                     </td>
@@ -102,13 +102,13 @@
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                     <td width='30%'><strong>Kondisi Lingkungan</strong></td>
                     <td  scope="col" class="px-6 py-3">
-                        @if($presetpreference->kondisi_lingkungan == 50)
+                        @if($presetpreference->kondisi_lingkungan == 5)
                             Baik
-                        @elseif($presetpreference->kondisi_lingkungan == 100)
+                        @elseif($presetpreference->kondisi_lingkungan == 10)
                             Cukup
-                        @elseif($presetpreference->kondisi_lingkungan == 150)
+                        @elseif($presetpreference->kondisi_lingkungan == 15)
                            Buruk
-                        @elseif($presetpreference->kondisi_lingkungan == 200)
+                        @elseif($presetpreference->kondisi_lingkungan == 20)
                             Sangat Buruk
                         @endif
                     </td>

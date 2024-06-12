@@ -9,7 +9,7 @@
         </div>
     </x-slot>
     <p class="text-gray-500 dark:text-white font-medium text-lg mb-4">Hello <span class="text-red-600">{{
-            auth()->user()->name }}</span>, Disini Kamu Bisa Cari Seperti Apa Tanah Yang Kamu Inginkan</p>
+            auth()->user()->name }}</span>, Disini Kamu Bisa Cari Seperti Apa Lahan Yang Kamu Inginkan</p>
 
   
     <div class="relative overflow-x-auto">

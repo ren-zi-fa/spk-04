@@ -50,7 +50,7 @@
             </tr>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <td scope="col" class="px-6 py-3"><strong>Harga</strong></td>
-                <td scope="col" class="px-6 py-3"> Rp{{ $product->harga }}</td>
+                <td scope="col" class="px-6 py-3"> Rp.{{ $product->harga }} per tahun</td>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <td scope="col" class="px-6 py-3"><strong>Perizinan Regulasi</strong> </td>

@@ -434,7 +434,7 @@ class RekomendasiController extends Controller
             ->flash('success','Rekomendasi berhasil. Silakan pilih Tanah yang tersedia'); 
 
         return view('rekomendasi.list_rekomendasi',compact('products', 'n_bobot', 'bobotKriteriaDanPreferensiKriteria'))
-            ->with('success', 'Rekomendasi berhasil. Berikut hasil rekomendasi Tanah');
+            ->with('success', 'Rekomendasi berhasil. Berikut hasil rekomendasinya');
 
     }
     }

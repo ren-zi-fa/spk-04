@@ -205,13 +205,13 @@
                                     Perizinan Regulasi
                                 </td>
                                 <td class="px-6 py-4">
-                                    @if($kriteria->pref_perizinan_regulasi == 50)
+                                    @if($kriteria->pref_perizinan_regulasi == 5)
                                     {{ isDiabaikan("Mudah") }}
-                                    @elseif($kriteria->pref_perizinan_regulasi == 100)
+                                    @elseif($kriteria->pref_perizinan_regulasi == 10)
                                     {{ isDiabaikan("Sedang") }}
-                                    @elseif($kriteria->pref_perizinan_regulasi == 150)
+                                    @elseif($kriteria->pref_perizinan_regulasi == 15)
                                     {{ isDiabaikan("Sulit") }}
-                                    @elseif($kriteria->pref_perizinan_regulasi == 200)
+                                    @elseif($kriteria->pref_perizinan_regulasi == 20)
                                     {{ isDiabaikan("Sangat Sulit") }}
                                     @else
                                     {{ isDiabaikan($kriteria->pref_perizinan_regulasi) }}
@@ -231,13 +231,13 @@
                                     Ketersediaan Air
                                 </td>
                                 <td class="px-6 py-4">
-                                    @if($kriteria->pref_ketersediaan_air == 50)
+                                    @if($kriteria->pref_ketersediaan_air == 5)
                                     {{ isDiabaikan("Tersedia Sepenuhnya") }}
-                                    @elseif($kriteria->pref_ketersediaan_air == 100)
+                                    @elseif($kriteria->pref_ketersediaan_air == 10)
                                     {{ isDiabaikan("Tersedia Dengan Baik") }}
-                                    @elseif($kriteria->pref_ketersediaan_air == 150)
+                                    @elseif($kriteria->pref_ketersediaan_air == 15)
                                     {{ isDiabaikan("Ketersediaan Terbatas") }}
-                                    @elseif($kriteria->pref_ketersediaan_air == 200)
+                                    @elseif($kriteria->pref_ketersediaan_air == 20)
                                     {{ isDiabaikan("Ketersediaan Terbatas Sekali") }}
                                     @else
                                     {{ isDiabaikan($kriteria->pref_ketersediaan_air) }}
@@ -256,13 +256,13 @@
                                     Lokasi
                                 </td>
                                 <td class="px-6 py-4">
-                                    @if($kriteria->pref_lokasi == 50)
+                                    @if($kriteria->pref_lokasi == 5)
                                     {{ isDiabaikan("Dekat Agak Jauh") }}
-                                    @elseif($kriteria->pref_lokasi == 100)
+                                    @elseif($kriteria->pref_lokasi == 10)
                                     {{ isDiabaikan("Agak Jauh") }}
-                                    @elseif($kriteria->pref_lokasi == 150)
+                                    @elseif($kriteria->pref_lokasi == 15)
                                     {{ isDiabaikan("Jauh") }}
-                                    @elseif($kriteria->pref_lokasi == 200)
+                                    @elseif($kriteria->pref_lokasi == 20)
                                     {{ isDiabaikan("Sangat Jauh") }}
                                     @else
                                     {{ isDiabaikan($kriteria->pref_lokasi) }}
@@ -281,13 +281,13 @@
                                     Potensi penduduk
                                 </td>
                                 <td class="px-6 py-4">
-                                    @if($kriteria->pref_potensi_produksi == 50)
+                                    @if($kriteria->pref_potensi_produksi == 5)
                                     {{ isDiabaikan("Produktif") }}
-                                    @elseif($kriteria->pref_potensi_produksi == 100)
+                                    @elseif($kriteria->pref_potensi_produksi == 10)
                                     {{ isDiabaikan("Stabil") }}
-                                    @elseif($kriteria->pref_potensi_produksi == 150)
+                                    @elseif($kriteria->pref_potensi_produksi == 15)
                                     {{ isDiabaikan("Menengah") }}
-                                    @elseif($kriteria->pref_potensi_produksi == 200)
+                                    @elseif($kriteria->pref_potensi_produksi == 20)
                                     {{ isDiabaikan("Rendah") }}
                                     @else
                                     {{ isDiabaikan($kriteria->pref_potensi_produksi) }}
@@ -306,13 +306,13 @@
                                     Aksesibilitas
                                 </td>
                                 <td class="px-6 py-4">
-                                    @if($kriteria->pref_aksesibilitas == 50)
+                                    @if($kriteria->pref_aksesibilitas == 5)
                                     {{ isDiabaikan("Sangat Mudah Diakses") }}
-                                    @elseif($kriteria->pref_aksesibilitas == 100)
+                                    @elseif($kriteria->pref_aksesibilitas == 10)
                                     {{ isDiabaikan("Mudah Diakses") }}
-                                    @elseif($kriteria->pref_aksesibilitas == 150)
+                                    @elseif($kriteria->pref_aksesibilitas == 15)
                                     {{ isDiabaikan("Agak Sulit Diakses") }}
-                                    @elseif($kriteria->pref_aksesibilitas == 200)
+                                    @elseif($kriteria->pref_aksesibilitas == 20)
                                     {{ isDiabaikan("Sangat Sulit Diakses") }}
                                     @else
                                     {{ isDiabaikan($kriteria->pref_aksesibilitas) }}
@@ -333,11 +333,11 @@
                                 <td class="px-6 py-4">
                                     @if($kriteria->pref_kondisi_lingkungan == 50)
                                     {{ isDiabaikan("Baik") }}
-                                    @elseif($kriteria->pref_kondisi_lingkungan == 100)
+                                    @elseif($kriteria->pref_kondisi_lingkungan == 10)
                                     {{ isDiabaikan("Cukup") }}
-                                    @elseif($kriteria->pref_kondisi_lingkungan == 150)
+                                    @elseif($kriteria->pref_kondisi_lingkungan == 15)
                                     {{ isDiabaikan("Buruk") }}
-                                    @elseif($kriteria->pref_kondisi_lingkungan == 200)
+                                    @elseif($kriteria->pref_kondisi_lingkungan == 20)
                                     {{ isDiabaikan("Sangat Buruk") }}
                                     @else
                                     {{ isDiabaikan($kriteria->pref_kondisi_lingkungan) }}
